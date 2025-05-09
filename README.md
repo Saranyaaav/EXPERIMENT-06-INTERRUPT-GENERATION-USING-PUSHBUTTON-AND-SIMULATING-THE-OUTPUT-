@@ -16,6 +16,7 @@ Micro-Coded Architecture So that interrupt stacking, entry, and exit are done au
 The processor mode can change when exceptions occur. And it can be in one of the following modes:
 Thread Mode: Which is entered on reset.
 Handler Mode: Which is entered on all other exceptions.
+
 ![image](https://github.com/vasanthkumarch/EXPERIMENT-06-INTERRUPT-GENERATION-USING-PUSHBUTTON-AND-SIMULATING-THE-OUTPUT-/assets/36288975/4f52f2d6-4cdb-4315-b2b2-b55dc1639c43)
 The STM32 ARM microcontroller interrupts are generated in the following manner:
 
